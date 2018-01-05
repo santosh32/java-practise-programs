@@ -1,4 +1,5 @@
 package arrays;
+
 public class FindDuplicateInOneIterationEx {
 
 	static int ar[] = { 3, 7, 3, 5, 8, 9, 24, 8, 9 }; // given array

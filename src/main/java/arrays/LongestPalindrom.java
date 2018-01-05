@@ -1,14 +1,15 @@
 package arrays;
+
 public class LongestPalindrom {
 
 	public static void main(String[] args) {
-//		System.out.println(longestPalindromeStr("1234"));
+		// System.out.println(longestPalindromeStr("1234"));
 		System.out.println(longestPalindromeStr("12321"));
-//		System.out.println(longestPalindromeStr("9912321456"));
-//		System.out.println(longestPalindromeStr("9912333321456"));
-//		System.out.println(longestPalindromeStr("12145445499"));
-//		System.out.println(longestPalindromeStr("1223213"));
-//		System.out.println(longestPalindromeStr("abb"));
+		// System.out.println(longestPalindromeStr("9912321456"));
+		// System.out.println(longestPalindromeStr("9912333321456"));
+		// System.out.println(longestPalindromeStr("12145445499"));
+		// System.out.println(longestPalindromeStr("1223213"));
+		// System.out.println(longestPalindromeStr("abb"));
 	}
 
 	// O(n^2)

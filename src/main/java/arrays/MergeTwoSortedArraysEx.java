@@ -1,8 +1,9 @@
 package arrays;
+
 public class MergeTwoSortedArraysEx {
 
 	public static void main(String[] args) {
-		int[] ar1 = { 1, 3, 7, 11 ,25};
+		int[] ar1 = { 1, 3, 7, 11, 25 };
 		int[] ar2 = { 2, 5, 8, 22 };
 
 		System.out.print("Display ar1 : ");

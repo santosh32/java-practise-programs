@@ -1,4 +1,5 @@
 package arrays;
+
 public class RotationalPalindrome {
 
 	public static void main(String[] args) {
@@ -16,8 +17,7 @@ public class RotationalPalindrome {
 		for (int x = 0; x < inputStr.length(); x++) {
 			rotateString(ch);
 			if (isPalindrome(ch)) {
-				System.out.println(
-						"inputString(i.e " + inputStr + ") is rotation of the palindrome: " + String.valueOf(ch));
+				System.out.println("inputString(i.e " + inputStr + ") is rotation of the palindrome: " + String.valueOf(ch));
 				return true;
 			}
 		}
