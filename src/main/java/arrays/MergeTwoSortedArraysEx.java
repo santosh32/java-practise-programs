@@ -1,3 +1,4 @@
+package arrays;
 public class MergeTwoSortedArraysEx {
 
 	public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package arrays;
 public class TwoConsecutiveNumbersWithHighestSum {
 
 	public static void main(String[] args) {

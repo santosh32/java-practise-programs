@@ -1,3 +1,4 @@
+package arrays;
 public class RotationalPalindrome {
 
 	public static void main(String[] args) {
