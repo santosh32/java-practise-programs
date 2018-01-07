@@ -1,6 +1,6 @@
 package arrays;
 
-public class NumberIsOddOrEvenExample {
+public class NumberIsOddOrEvenEx {
 	public static void main(String[] args) {
 
 		int number = 53;
