@@ -1,4 +1,4 @@
-package arrays;
+package arrays.duplicate;
 
 public class FindDuplicateInOneIterationEx {
 
