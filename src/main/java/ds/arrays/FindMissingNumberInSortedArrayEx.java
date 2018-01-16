@@ -1,4 +1,4 @@
-package datastructures.arrays;
+package ds.arrays;
 
 public class FindMissingNumberInSortedArrayEx {
 	static int ar[] = { 3, 5, 8, 44 }; // given array

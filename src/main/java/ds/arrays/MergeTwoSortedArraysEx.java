@@ -1,4 +1,4 @@
-package datastructures.arrays;
+package ds.arrays;
 
 public class MergeTwoSortedArraysEx {
 

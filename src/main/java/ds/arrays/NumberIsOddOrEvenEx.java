@@ -1,4 +1,4 @@
-package datastructures.arrays;
+package ds.arrays;
 
 public class NumberIsOddOrEvenEx {
 	public static void main(String[] args) {
