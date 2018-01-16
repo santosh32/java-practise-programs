@@ -1,4 +1,4 @@
-package arrays.duplicate;
+package ds.arrays.duplicate;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package queue;
+package ds.queue;
 
 import java.util.NoSuchElementException;
 

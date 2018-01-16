@@ -1,4 +1,4 @@
-package arrays.duplicate;
+package ds.arrays.duplicate;
 
 public class FindDuplicateInOneIterationEx {
 

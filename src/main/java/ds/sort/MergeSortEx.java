@@ -1,4 +1,4 @@
-package sort;
+package ds.sort;
 
 public class MergeSortEx {
 

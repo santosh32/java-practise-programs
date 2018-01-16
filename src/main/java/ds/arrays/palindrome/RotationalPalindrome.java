@@ -1,4 +1,4 @@
-package arrays.palindrome;
+package ds.arrays.palindrome;
 
 public class RotationalPalindrome {
 
