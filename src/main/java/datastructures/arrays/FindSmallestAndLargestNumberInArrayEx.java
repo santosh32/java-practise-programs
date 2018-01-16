@@ -1,4 +1,4 @@
-package arrays;
+package datastructures.arrays;
 
 public class FindSmallestAndLargestNumberInArrayEx {
 	static int ar[] = { 3, 9, 4, 9, 1, 2, 5, 8, 12, 7 }; // given array
