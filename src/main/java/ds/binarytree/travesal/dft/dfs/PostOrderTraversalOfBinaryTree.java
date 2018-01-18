@@ -1,6 +1,6 @@
-package ds.binarytree.travesal;
+package ds.binarytree.travesal.dft.dfs;
 
-public class PreOrderTraversalOfBinaryTree {
+public class PostOrderTraversalOfBinaryTree {
 
 	/**
 	 * Create Node of Binary Tree
@@ -20,31 +20,31 @@ public class PreOrderTraversalOfBinaryTree {
 	}
 
 	/**
-	 * This method will do pre-order Traversal of binary tree in java. Method
+	 * This method will do Post-order Traversal of binary tree in java. Method
 	 * will pass leftNode of binary tree recursively Once leftNode child is
 	 * done, pass rightNode of binary tree recursively
 	 */
-	public void preorderTraversalMethod(BinaryTreeNode binaryTreeNode) {
+	public void postorderTraversalMethod(BinaryTreeNode binaryTreeNode) {
 		// Continue if binaryTreeNode is not null
-		if (binaryTreeNode != null) {
+		if (binaryTreeNode != null) { // Visit the node-Printing the node data
+
+			// pass leftNode of binary tree recursively
+			postorderTraversalMethod(binaryTreeNode.leftNode);
+
+			// pass rightNode of binary tree recursively
+			postorderTraversalMethod(binaryTreeNode.rightNode);
 
 			// Display data of current binaryTreeNode.
 			System.out.print(binaryTreeNode.data + " ");
-
-			// pass leftNode of binary tree recursively
-			preorderTraversalMethod(binaryTreeNode.leftNode);
-
-			// pass rightNode of binary tree recursively
-			preorderTraversalMethod(binaryTreeNode.rightNode);
 		}
 	}
 
 	/**
-	 * Main method to perform PreOrder Traversal of Binary Tree in java
+	 * Main method to perform PostOrder Traversal of Binary Tree in java
 	 */
 	public static void main(String[] args) {
 
-		PreOrderTraversalOfBinaryTree preOrderTraversalOfBinaryTree = new PreOrderTraversalOfBinaryTree();
+		PostOrderTraversalOfBinaryTree postOrderTraversalOfBinaryTree = new PostOrderTraversalOfBinaryTree();
 
 		// Now, let's start creating nodes of Binary tree
 
@@ -72,15 +72,15 @@ public class PreOrderTraversalOfBinaryTree {
 		BinaryTreeNode node7 = new BinaryTreeNode(7);
 		node3.rightNode = node7;
 
-		System.out.println("Pre order Traversal of Binary Tree in java : ");
-		// Pass root node to pre order traversal method
-		preOrderTraversalOfBinaryTree.preorderTraversalMethod(binaryTreeNode1);
+		System.out.println("Post order Traversal of Binary Tree in java : ");
+		// Pass root node to Post order traversal method
+		postOrderTraversalOfBinaryTree.postorderTraversalMethod(binaryTreeNode1);
 	}
 }
 
 /*
  * Output
  * 
- * Pre order Traversal of Binary Tree in java : 1 2 4 5 3 6 7
+ * Post order Traversal of Binary Tree in java : 4 5 2 6 7 3 1
  * 
  */

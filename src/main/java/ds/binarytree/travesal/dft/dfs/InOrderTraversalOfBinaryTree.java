@@ -1,4 +1,4 @@
-package ds.binarytree.travesal;
+package ds.binarytree.travesal.dft.dfs;
 
 public class InOrderTraversalOfBinaryTree {
 
