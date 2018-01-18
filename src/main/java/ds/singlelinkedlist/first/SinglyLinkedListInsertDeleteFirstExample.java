@@ -1,42 +1,12 @@
 package ds.singlelinkedlist.first;
 
-class LinkedListEmptyException extends RuntimeException {
-
-	private static final long serialVersionUID = 1L;
-
-	public LinkedListEmptyException() {
-		super();
-	}
-
-	public LinkedListEmptyException(String message) {
-		super(message);
-	}
-}
-
-/**
- * Node class, which holds data and contains next which points to next Node of
- * Singly LinkedList.
- */
-class Node {
-	public int data; // data in Node.
-	public Node next; // points to next Node in list.
-
-	public Node(int data) {
-		this.data = data;
-	}
-
-	public void displayNode() {
-		System.out.print(data + " ");
-	}
-}
-
 /**
  * Singly LinkedList class
  */
-class LinkedList {
+class LinkedListFirst {
 	private Node first; // ref to first link on list
 
-	public LinkedList() {
+	public LinkedListFirst() {
 		first = null;
 	}
 
@@ -80,13 +50,9 @@ class LinkedList {
 
 }
 
-/** Copyright (c), AnkitMittal JavaMadeSoEasy.com */
-/**
- * Main class - To test Singly LinkedList .
- */
 public class SinglyLinkedListInsertDeleteFirstExample {
 	public static void main(String[] args) {
-		LinkedList linkedList = new LinkedList(); // creation of Linked List
+		LinkedListFirst linkedList = new LinkedListFirst(); // creation of Linked List
 
 		linkedList.insertFirst(11);
 		linkedList.insertFirst(21);

@@ -1,38 +1,9 @@
-package ds.singlelinkedlist.last;
+package ds.singlelinkedlist.first;
 
-class LinkedListEmptyException extends RuntimeException {
-
-	private static final long serialVersionUID = 1L;
-
-	public LinkedListEmptyException() {
-		super();
-	}
-
-	public LinkedListEmptyException(String message) {
-		super(message);
-	}
-}
-
-/**
- * Node class, which holds data and contains next which points to next Node.
- */
-class Node {
-	public int data; // data in Node.
-	public Node next; // points to next Node in list.
-
-	public Node(int data) {
-		this.data = data;
-	}
-
-	public void displayNode() {
-		System.out.print(data + " ");
-	}
-}
-
-class LinkedList {
+class LinkedListLast {
 	private Node first; // ref to first link on list
 
-	public LinkedList() {
+	public LinkedListLast() {
 		first = null;
 	}
 
@@ -122,7 +93,7 @@ class LinkedList {
  */
 public class SinglyLinkedListInsertDeleteLastExample {
 	public static void main(String[] args) {
-		LinkedList linkedList = new LinkedList(); // creation of Linked List
+		LinkedListLast linkedList = new LinkedListLast(); // creation of Linked List
 
 		linkedList.insertLast(11);
 		linkedList.insertLast(21);
