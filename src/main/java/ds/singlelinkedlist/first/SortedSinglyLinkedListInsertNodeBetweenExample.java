@@ -79,14 +79,10 @@ class LinkedListBetween {
 
 }
 
-/** Copyright (c), AnkitMittal JavaMadeSoEasy.com */
-/**
- * SortedSinglyLinkedListInsertNodeBetweenExample - Main class - To test Sorted
- * Singly LinkedList.
- */
 public class SortedSinglyLinkedListInsertNodeBetweenExample {
 	public static void main(String[] args) {
-		LinkedListBetween linkedList = new LinkedListBetween(); // creation of Linked List
+		LinkedListBetween linkedList = new LinkedListBetween(); // creation of
+																// Linked List
 
 		linkedList.displayLinkedList(); // display LinkedList
 		linkedList.insertNodeInSortedLinkedList(92);

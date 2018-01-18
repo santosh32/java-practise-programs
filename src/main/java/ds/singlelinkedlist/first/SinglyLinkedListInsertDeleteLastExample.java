@@ -87,13 +87,10 @@ class LinkedListLast {
 
 }
 
-/** Copyright (c), AnkitMittal JavaMadeSoEasy.com */
-/**
- * Main class - To test Singly LinkedList.
- */
 public class SinglyLinkedListInsertDeleteLastExample {
 	public static void main(String[] args) {
-		LinkedListLast linkedList = new LinkedListLast(); // creation of Linked List
+		LinkedListLast linkedList = new LinkedListLast(); // creation of Linked
+															// List
 
 		linkedList.insertLast(11);
 		linkedList.insertLast(21);
