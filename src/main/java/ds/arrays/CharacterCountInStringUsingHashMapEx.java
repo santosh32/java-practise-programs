@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class CharacterCountInStringUsingHashMapExample {
+public class CharacterCountInStringUsingHashMapEx {
 
 	public static void main(String[] args) {
 		String inputString = "This is it";

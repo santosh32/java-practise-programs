@@ -1,6 +1,6 @@
 package ds.arrays.basic;
 
-public class ArmstrongNumberExample {
+public class ArmstrongNumberEx {
 	
 	public static void main(String... args) {
 		int number = 153;

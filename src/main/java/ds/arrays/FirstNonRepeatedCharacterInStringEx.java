@@ -3,7 +3,7 @@ package ds.arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class FirstNonRepeatedCharacterInStringExample {
+public class FirstNonRepeatedCharacterInStringEx {
 
 	public static void main(String[] args) {
 

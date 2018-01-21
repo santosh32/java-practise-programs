@@ -1,6 +1,6 @@
 package ds.arrays.basic;
 
-public class PerfectNumberExample {
+public class PerfectNumberEx {
 
 	public static void main(String a[]) {
 		int n = 28;

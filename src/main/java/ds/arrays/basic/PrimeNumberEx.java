@@ -1,6 +1,6 @@
 package ds.arrays.basic;
 
-public class PrimeNumberExample {
+public class PrimeNumberEx {
 
 	public static void main(String[] args) {
 

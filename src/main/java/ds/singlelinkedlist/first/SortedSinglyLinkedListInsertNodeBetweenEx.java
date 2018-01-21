@@ -79,7 +79,7 @@ class LinkedListBetween {
 
 }
 
-public class SortedSinglyLinkedListInsertNodeBetweenExample {
+public class SortedSinglyLinkedListInsertNodeBetweenEx {
 	public static void main(String[] args) {
 		LinkedListBetween linkedList = new LinkedListBetween(); // creation of
 																// Linked List

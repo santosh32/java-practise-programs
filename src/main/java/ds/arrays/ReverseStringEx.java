@@ -1,6 +1,6 @@
 package ds.arrays;
 
-public class ReverseStringExample {
+public class ReverseStringEx {
 	
 	public static void main(String... args) {
 		String originalString = "abcde"; // String to be reversed

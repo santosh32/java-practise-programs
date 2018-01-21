@@ -1,6 +1,6 @@
 package ds.arrays.basic;
 
-public class DeleteRepetaedCharacterFromBothStringsExample {
+public class DeleteRepetaedCharacterFromBothStringsEx {
 	public static void main(String[] args) {
 		String s1 = "aBc";
 		String s2 = "bcde";

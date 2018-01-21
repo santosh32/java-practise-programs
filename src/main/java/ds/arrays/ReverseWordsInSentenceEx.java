@@ -1,5 +1,5 @@
 package ds.arrays;
-public class ReverseWordsInSentenceExample {
+public class ReverseWordsInSentenceEx {
  
     public static void main(String[] args) {
            String inputString="i am doing good";

@@ -1,6 +1,6 @@
 package ds.arrays.basic;
 
-public class SumOfDigitsInNumberExample {
+public class SumOfDigitsInNumberEx {
 	
 	public static void main(String... args) {
 

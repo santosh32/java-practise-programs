@@ -87,7 +87,7 @@ class LinkedListLast {
 
 }
 
-public class SinglyLinkedListInsertDeleteLastExample {
+public class SinglyLinkedListInsertDeleteLastEx {
 	public static void main(String[] args) {
 		LinkedListLast linkedList = new LinkedListLast(); // creation of Linked
 															// List

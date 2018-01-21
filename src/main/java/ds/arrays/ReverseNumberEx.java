@@ -1,6 +1,6 @@
 package ds.arrays;
 
-public class ReverseNumberExample {
+public class ReverseNumberEx {
 	
 	public static void main(String... args) {
 

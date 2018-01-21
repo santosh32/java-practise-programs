@@ -61,7 +61,7 @@ class LinkedList {
 
 }
 
-public class SinglyLinkedListReverseExample {
+public class SinglyLinkedListReverseEx {
 	public static void main(String[] args) {
 		LinkedList linkedList = new LinkedList();
 

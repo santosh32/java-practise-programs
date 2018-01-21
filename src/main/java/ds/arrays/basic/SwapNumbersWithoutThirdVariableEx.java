@@ -1,6 +1,6 @@
 package ds.arrays.basic;
 
-class SwapNumbersWithoutThirdVariableExample {
+class SwapNumbersWithoutThirdVariableEx {
 
 	public static void main(String[] args) {
 		int n1 = 7, n2 = 5;

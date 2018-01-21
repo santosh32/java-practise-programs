@@ -78,7 +78,7 @@ class LinkedListDeleteSpecificNode {
 
 }
 
-public class SinglyLinkedListDeleteNodeExample {
+public class SinglyLinkedListDeleteNodeEx {
 	public static void main(String[] args) {
 		LinkedListDeleteSpecificNode linkedList = new LinkedListDeleteSpecificNode(); // creation
 																						// of

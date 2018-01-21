@@ -1,6 +1,6 @@
 package ds.arrays.basic;
 
-public class ReplaceAllVowelsIntoCapitalCaseExample1 {
+public class ReplaceAllVowelsIntoCapitalCaseEx {
 	public static void main(String[] args) {
 		String str = "java made so easy";
 		System.out.println("original string = " + str);

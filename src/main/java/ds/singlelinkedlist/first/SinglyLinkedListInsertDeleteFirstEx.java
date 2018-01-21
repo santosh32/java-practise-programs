@@ -50,7 +50,7 @@ class LinkedListFirst {
 
 }
 
-public class SinglyLinkedListInsertDeleteFirstExample {
+public class SinglyLinkedListInsertDeleteFirstEx {
 	public static void main(String[] args) {
 		LinkedListFirst linkedList = new LinkedListFirst(); // creation of Linked List
 

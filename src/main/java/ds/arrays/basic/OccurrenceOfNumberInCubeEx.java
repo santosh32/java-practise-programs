@@ -1,6 +1,6 @@
 package ds.arrays.basic;
 
-public class OccurrenceOfNumberInCubeExample {
+public class OccurrenceOfNumberInCubeEx {
 
 	public static void main(String[] args) {
 
