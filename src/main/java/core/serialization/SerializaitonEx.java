@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
-public class SerializaitonClass {
+public class SerializaitonEx {
 
 	public static void main(String[] args) {
 		Employee emp = new Employee();
