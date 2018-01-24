@@ -18,7 +18,7 @@ public class CountConsecutiveElementInStrArray {
 			int count = 1;
 			String keyStr = String.valueOf(ch[i]);
 			for (int j = i + 1; j < ch.length; j++) {
-				if (ch[i] == ch[j] && i <= j) {
+				if (ch[i] == ch[j] ) {
 					keyStr = String.valueOf(ch[j]);
 					count++;
 				}
