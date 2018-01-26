@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class NumberInWords {
 
+	String one[] = { " ", 
+			" one", " two", " three", " four", " five", " six", " seven", " eight", " Nine", " ten", 
+			" eleven", " twelve", " thirteen", " fourteen", " fifteen", " sixteen", " seventeen", " eighteen", " nineteen" };
+
+	String ten[] = { " ", " ", 
+			" twenty", " thirty", " forty", " fifty", " sixty", " seventy", " eighty", " ninety" };
+	
 	public void pw(int n, String str) {
 		
-		String one[] = { " ", 
-				" one", " two", " three", " four", " five", " six", " seven", " eight", " Nine", " ten", 
-				" eleven", " twelve", " thirteen", " fourteen", "fifteen", " sixteen", " seventeen", " eighteen", " nineteen" };
-
-		String ten[] = { " ", " ", 
-				" twenty", " thirty", " forty", " fifty", " sixty", "seventy", " eighty", " ninety" };
-
 		if (n > 19) {
 			System.out.print(ten[n / 10] + " " + one[n % 10]);
 		} else {
@@ -33,12 +33,13 @@ public class NumberInWords {
 
 		else {
 			NumberInWords inWords = new NumberInWords();
-			inWords.pw((n / 1000000000), " Hundred");
-			inWords.pw((n / 10000000) % 100, " crore");
-			inWords.pw(((n / 100000) % 100), " lakh");
-			inWords.pw(((n / 1000) % 100), " thousand");
-			inWords.pw(((n / 100) % 10), " hundred");
+			inWords.pw((n / 1000000000), " Hundred"); //    100,00,00,000
+			inWords.pw((n / 10000000) % 100, " crore"); //    1,00,00,000
+			inWords.pw(((n / 100000) % 100), " lakh");//         1,00,000
+			inWords.pw(((n / 1000) % 100), " thousand");//          1,000
+			inWords.pw(((n / 100) % 10), " hundred");//               100
 			inWords.pw((n % 100), " ");
 		}
+		scanf.close();
 	}
 }
