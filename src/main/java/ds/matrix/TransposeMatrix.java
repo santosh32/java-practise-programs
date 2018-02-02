@@ -42,6 +42,7 @@ public class TransposeMatrix {
 
 			System.out.println();
 		}
+		scanner.close();
 	}
 }
 /*OUTPUT

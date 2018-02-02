@@ -44,6 +44,7 @@ public class SumOfElementsBelowDiagonal {
 		}
 
 		System.out.println("sum of elements below diagonal is: " + sum);
+		scanner.close();
 
 	}
 }

@@ -62,6 +62,7 @@ public class MatrixSubtraction {
 			}
 			System.out.println();
 		}
+		scanner.close();
 	}
 }
 

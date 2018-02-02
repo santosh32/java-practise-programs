@@ -53,6 +53,7 @@ public class SumOfBothDiagonals {
 		System.out.println("sum of diagonal1 and diagonal2 elements is: "
 				+ (sumOfDiagonal1 + sumOfDiagonal2));
 
+		scanner.close();
 	}
 }
 

@@ -64,5 +64,6 @@ public class SpiralMatrix {
 
 			System.out.println();
 		}
+		sc.close();
 	}
 }

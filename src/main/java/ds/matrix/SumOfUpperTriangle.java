@@ -44,7 +44,7 @@ public class SumOfUpperTriangle {
 		}
 
 		System.out.println("sum of upper triangle is: " + sum);
-
+		scanner.close();
 	}
 }
 /*OUTPUT

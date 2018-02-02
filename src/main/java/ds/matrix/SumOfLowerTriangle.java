@@ -44,6 +44,7 @@ public class SumOfLowerTriangle {
 		}
 
 		System.out.println("sum of lower triangle is: " + sum);
+		scanner.close();
 
 	}
 }
