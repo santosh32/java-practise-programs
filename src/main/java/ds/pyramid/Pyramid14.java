@@ -27,6 +27,7 @@ public class Pyramid14 {
 			start = sum; // assign sum to start
 			System.out.println(); // for new line
 		} // end for loop
+		
 	}
 }
 

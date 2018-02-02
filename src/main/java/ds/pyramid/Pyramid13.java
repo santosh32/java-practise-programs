@@ -21,7 +21,7 @@ public class Pyramid13 {
 			}
 			System.out.println("");
 		}
-
+		scanner.close();
 	}
 }
 

@@ -60,6 +60,7 @@ public class FindFirstRepeatedAndNonRepeatedCharacterInAString {
 		String input = sc.next();
 
 		firstRepeatedNonRepeatedChar(input);
+		sc.close();
 	}
 }
 /*

@@ -17,7 +17,7 @@ public class Pyramid6 {
 			}
 			System.out.println("");
 		}
-
+		scanner.close();
 	}
 }
 

@@ -22,7 +22,7 @@ public class Pyramid7Floyds {
 			}
 			System.out.println();
 		}
-
+		scanner.close();
 	}
 }
 

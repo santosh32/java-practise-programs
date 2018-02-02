@@ -24,7 +24,7 @@ public class Pyramid9Double {
 			}
 			System.out.println("");
 		}
-
+		scanner.close();
 	}
 }
 

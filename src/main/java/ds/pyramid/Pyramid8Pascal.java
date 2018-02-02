@@ -25,6 +25,7 @@ public class Pyramid8Pascal {
 			}
 			System.out.println();
 		}
+		scanner.close();
 	}
 }
 
