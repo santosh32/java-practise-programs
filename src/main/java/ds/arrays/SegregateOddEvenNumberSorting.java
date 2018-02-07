@@ -2,17 +2,18 @@ package ds.arrays;
 
 import java.util.Arrays;
 
-public class OddEvenNumberSorting {
+public class SegregateOddEvenNumberSorting {
 
 	static void sorting(int a[]) {
 		System.out.println("Array Before sorting : " + Arrays.toString(a));
+		System.out.println("=========================================");
 
 		int i = 0, j = a.length - 1;
 
 		while (i < j) {
-			while (a[i] == 0)
+			while (a[i] % 2 == 0)
 				i++;
-			while (a[j] == 1)
+			while (a[j] % 2 != 0)
 				j--;
 			if (i < j) {
 				int temp = a[i];
@@ -21,6 +22,7 @@ public class OddEvenNumberSorting {
 				i++;
 				j--;
 			}
+			System.out.println( Arrays.toString(a));
 		}
 
 		System.out.println("Array After sorting : " + Arrays.toString(a));
