@@ -3,7 +3,8 @@ package ds.arrays.duplicate;
 public class RemoveDuplicatesFromSortedArrayEx {
 
 	public static void main(String a[]) {
-		int[] duplicateSortedAr = { 1, 3, 7, 8, 8, 9, 14, 16, 16, 17, 17 };
+//		int[] duplicateSortedAr = { 1, 3, 7, 8, 8, 9, 14, 16, 16, 17, 17 };
+		int[] duplicateSortedAr = { 1, 3, 7, 8, 8, 9, 8, 9, 14, 16, 16, 17, 17 };
 		int[] nonDuplicateSortedAr = removeDuplicates(duplicateSortedAr);
 
 		System.out.print("Displaying contents of sorted array(with duplicate elements)  : ");
@@ -49,7 +50,7 @@ public class RemoveDuplicatesFromSortedArrayEx {
 /*
  * OUTPUT
  * 
- * Displaying contents of sorted array(with duplicate elements) : 1 3 7 8 9 14 16 17 16 17 17 
- * Displaying contents of sorted array(with non-duplicate elements) : 1 3 7 8 9 14 16 17
+ * Displaying contents of sorted array(with duplicate elements) : 1, 3, 7, 8, 8, 9, 14, 16, 16, 17, 17 
+ * Displaying contents of sorted array(with non-duplicate elements) : 1 3 7 8 9 14 16 17 
  * 
  */
