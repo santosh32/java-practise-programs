@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class SegregateOddEvenNumberSorting {
 
 	static void sorting(int a[]) {
+		
 		System.out.println("Array Before sorting : " + Arrays.toString(a));
 		System.out.println("=========================================");
 
@@ -27,6 +28,8 @@ public class SegregateOddEvenNumberSorting {
 
 		System.out.println("Array After sorting : " + Arrays.toString(a));
 
+		// TODO: two sub sets sorting goes
+		
 		System.out.println("i=" + i + " , j=" + j);
 
 		System.out.println("=========================================");
