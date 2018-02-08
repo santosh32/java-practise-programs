@@ -22,10 +22,12 @@ public class SegregateOddEvenNumberSorting {
 				i++;
 				j--;
 			}
-			System.out.println( Arrays.toString(a));
+			System.out.println(Arrays.toString(a));
 		}
 
 		System.out.println("Array After sorting : " + Arrays.toString(a));
+
+		System.out.println("i=" + i + " , j=" + j);
 
 		System.out.println("=========================================");
 	}
