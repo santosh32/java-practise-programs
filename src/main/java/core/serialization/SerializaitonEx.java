@@ -8,9 +8,11 @@ import java.io.ObjectOutputStream;
 public class SerializaitonEx {
 
 	public static void main(String[] args) {
+		
 		Employee emp = new Employee();
 		emp.setFirstName("Vivekanand");
 		emp.setLastName("Gautam");
+		
 		try {
 			FileOutputStream fileOut = new FileOutputStream("employee.txt");
 			ObjectOutputStream out = new ObjectOutputStream(fileOut);

@@ -7,6 +7,7 @@ import java.io.ObjectInputStream;
 public class DeserializationEx {
 	
 	public static void main(String[] args) {
+		
 		Employee emp = null;
 		try {
 			FileInputStream fileIn = new FileInputStream("employee.txt");
