@@ -12,7 +12,7 @@ public class PCFactory implements ComputerAbstractFactory {
 		this.cpu = cpu;
 	}
 
-//	@Override
+	@Override
 	public Computer createComputer() {
 		return new PC(ram, hdd, cpu);
 	}
