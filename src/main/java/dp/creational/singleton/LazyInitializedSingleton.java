@@ -1,4 +1,4 @@
-package dp.singleton;
+package dp.creational.singleton;
 
 public class LazyInitializedSingleton {
 

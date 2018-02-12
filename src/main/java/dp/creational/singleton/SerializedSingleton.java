@@ -1,4 +1,4 @@
-package dp.singleton;
+package dp.creational.singleton;
 
 import java.io.Serializable;
 

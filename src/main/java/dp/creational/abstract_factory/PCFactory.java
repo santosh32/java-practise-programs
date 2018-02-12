@@ -1,4 +1,4 @@
-package dp.abstract_factory;
+package dp.creational.abstract_factory;
 
 public class PCFactory implements ComputerAbstractFactory {
 
