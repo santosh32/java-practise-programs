@@ -9,7 +9,7 @@ public class RemoveDuplicatesFromCharcterArrayEx {
 
 		System.out.println("Original Str: " + str);
 
-		System.out.println("After removed duplicates from str" + " : "
+		System.out.println("Removed duplicates from str" + " : "
 				+ removeDuplicates(ch));
 
 	}
@@ -20,7 +20,8 @@ public class RemoveDuplicatesFromCharcterArrayEx {
 			for (int j = i + 1; j < n; j++) {
 				if (ch[i] == ch[j]) {
 					int temp = j;// set duplicate element index
-					// delete the duplicate element by shifting the elements to left
+					// delete the duplicate element by shifting the elements to
+					// left
 					for (int k = temp; k < n - 1; k++) {
 						ch[k] = ch[k + 1];
 					}
