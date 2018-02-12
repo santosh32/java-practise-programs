@@ -17,14 +17,17 @@ public class RemoveDuplicatesFromUnSortedArrayEx {
 			for (int j = i + 1; j < n; j++) {
 				// If any two elements are found equal
 				if (a[i] == a[j]) {
-					// Replace duplicate element with last unique element
-					a[j] = a[n - 1];
-					n--;
+					int temp = j;// set duplicate element index
+					// delete the duplicate element by shifting the elements to
+					// left
+					for (int k = temp; k < n - 1; k++) {
+						a[k] = a[k + 1];
+					}
 					j--;
+					n--;// reduce char array length
 				}
-				
 			}
-			System.out.println(Arrays.toString(a));
+//			System.out.println(Arrays.toString(a));
 		}
 
 		// Copying only unique elements of my_array into array1
