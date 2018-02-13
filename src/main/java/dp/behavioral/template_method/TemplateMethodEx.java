@@ -16,3 +16,17 @@ public class TemplateMethodEx {
 	}
 
 }
+/*Building foundation with cement,iron rods and sand
+Building Pillars with Wood coating
+Building Wooden Walls
+Building Glass Windows
+House is built.
+************
+Building foundation with cement,iron rods and sand
+Building Pillars with glass coating
+Building Glass Walls
+Building Glass Windows
+House is built.
+ 
+ * */
+
