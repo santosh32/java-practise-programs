@@ -1,4 +1,4 @@
-package core.basic;
+package ds.arrays;
 
 import java.util.Scanner;
 
