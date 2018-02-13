@@ -4,10 +4,12 @@ import java.io.Serializable;
 
 public class Employee implements Serializable {
 
+	//TODO add and remove
 	private static final long serialVersionUID = 5462223600l;
 
 	private String firstName;
 	private String lastName;
+	//TODO add and remove
 	private String designation;
 
 	public String getFirstName() {
