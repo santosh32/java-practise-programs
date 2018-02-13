@@ -47,7 +47,7 @@ class Receiver {
 class Invoke {
 	ICommand cmd;
 
-	public void ExecuteCommand(ICommand cmd) {
+	public void executeCommand(ICommand cmd) {
 		this.cmd = cmd;
 		cmd.execute();
 	}
@@ -62,7 +62,7 @@ public class CommandPatternEx {
 		Invoke inv = new Invoke();
 		UndoCommand unCmd = new UndoCommand(intendedreceiver);
 		RedoCommand reCmd = new RedoCommand(intendedreceiver);
-		inv.ExecuteCommand(unCmd);
-		inv.ExecuteCommand(reCmd);
+		inv.executeCommand(unCmd);
+		inv.executeCommand(reCmd);
 	}
 }

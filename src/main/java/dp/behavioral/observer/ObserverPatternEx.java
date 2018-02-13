@@ -53,11 +53,11 @@ class Subject implements ISubject {
 	}
 }
 
-class ObserverPatternEx {
+public class ObserverPatternEx {
 	
 	public static void main(String[] args) {
 	
-		System.out.println("***Observer Pattern Demo***\n");
+		System.out.println("***ObserverPatternEx Pattern Demo***\n");
 		Observer o1 = new Observer();
 		Subject sub1 = new Subject();
 		sub1.register(o1);
