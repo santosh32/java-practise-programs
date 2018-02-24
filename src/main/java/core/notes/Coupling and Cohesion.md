@@ -13,32 +13,28 @@ Loose Coupling(good programming design)
 If a class A is able to access data members/instance variables of a class B directly by dot operator (because they were declared public), the two classes are said to be tightly coupled and it leads to bad designing, because all the checks made to ensure the valid access to data members of class B are bypassed by their direct access. Let's understand this by an example - 
 ````java
 //Tight coupling 
+class Names {
+	public String name;
 
-class Names
-{
-public String name;
+	public String getName() {
+		// some code to check valid access to name
+		return name;
+	}
 
-public String getName()
-{
-//some code to check valid access to name
-return name;
+	public void setName(String s) {
+		// some code to check valid setting to name
+		name = s;
+	}
 }
 
-public void setName(String s)
-{
-//some code to check valid setting to name
-name=s;
-}
-}
-
-class ModifyData
-{
-public void updateName()
-{
-Name ob= new Name();
-ob.name="Hello";   //Directly accessing name with dot operator shows tight coupling between two classes
-System.out.println(ob.name); 	  //Tight coupling because of bad encapsulation
-}
+class ModifyData {
+	public void updateName() {
+		Name ob = new Name();
+		ob.name = "Hello"; // Directly accessing name with dot operator shows
+							// tight coupling between two classes
+		System.out.println(ob.name); // Tight coupling because of bad
+										// encapsulation
+	}
 }
 
 ````
@@ -56,31 +52,26 @@ Hence, getName() and setName() methods of class Name are never called and their 
 **Loose Coupling**
 A good application designing is creating an application with loosely coupled classes by following proper encapsulation, i.e. by declaring data members of a class with private access and forcing other classes to access them only through public getter, setter methods. Let's understand this by an example -
 ````java
-class Names
-{
-private String name;
+class Names {
+	private String name;
 
-public String getName()
-{
-//some code to check valid access to name
-return name;
-}
+	public String getName() {
+		// some code to check valid access to name
+		return name;
+	}
 
-public void setName(String s)
-{
-//some code to check valid setting to name
-name=s;
-}
+	public void setName(String s) {
+		// some code to check valid setting to name
+		name = s;
+	}
 }
 
-class ModifyData
-{
-public void updateName()
-{
-C ob= new C();
-ob.setName("Howard");
-ob.getName();
-}
+class ModifyData {
+	public void updateName() {
+		C ob = new C();
+		ob.setName("Howard");
+		ob.getName();
+	}
 }
 
 ````
@@ -109,13 +100,16 @@ High Cohesion(good programming design)
 When a class is designed to do many different tasks rather than focussing on a single specialized task, this class is said to be a "low cohesive" class. Low cohesive class are said to be badly designed leading to a hard time at creating, maintaining and updating them. Let's understand this by an example -
 
 ````java
-class PlayerDatabase
-{
-public void connectDatabase();
-public void printAllPlayersInfo();
-public void printSinglePlayerInfo();
-public void printRankings()
-public void closeDatabase();
+class PlayerDatabase {
+	public void connectDatabase();
+
+	public void printAllPlayersInfo();
+
+	public void printSinglePlayerInfo();
+
+	public void printRankings()
+
+	public void closeDatabase();
 }
 ````
 
@@ -129,44 +123,32 @@ Here, we have a class PlayerDatabase which is performing many different tasks li
 
 A good application design is creating an application with high cohesive classes, which are targeted towards a specific specialized task and such class is easy not only easy to create, but also easy to maintain and update.
 ````java
-class PlayerDatabase
-{
-ConnectDatabase connectD= new connectDatabase();
-PrintAllPlayersInfo allPlayer= new PrintAllPlayersInfo();
-PrintRankings rankings = new PrintRankings();
-CloseDatabase closeD= new CloseDatabase();
-PrintSinglePlayerInfo singlePlayer = PrintSinglePlayerInfo();
+class PlayerDatabase {
+	ConnectDatabase connectD = new connectDatabase();
+	PrintAllPlayersInfo allPlayer = new PrintAllPlayersInfo();
+	PrintRankings rankings = new PrintRankings();
+	CloseDatabase closeD = new CloseDatabase();
+	PrintSinglePlayerInfo singlePlayer = PrintSinglePlayerInfo();
 }
 
-
-
-class ConnectDatabase
-{
-//connecting to database.
+class ConnectDatabase {
+	// connecting to database.
 }
 
-
-class CloseDatabase
-{
-//closing the database connection.
+class CloseDatabase {
+	// closing the database connection.
 }
 
-
-class PrintRankings
-{
-//printing the players current rankings.
+class PrintRankings {
+	// printing the players current rankings.
 }
 
-
-class PrintAllPlayersInfo
-{
-//printing all the players information.
+class PrintAllPlayersInfo {
+	// printing all the players information.
 }
 
-
-class PrintSinglePlayerInfo
-{
-//printing a single player information.
+class PrintSinglePlayerInfo {
+	// printing a single player information.
 }
 ````
 
