@@ -12,6 +12,7 @@ Young Generation is further divided into
 - S1 (survivor space)
 
 
+
 Young Generation
 -
 Eden space is a place where new objects are created. When the space is filled upto a certain percentage, GC is perfomed. This event is called as **Minor GC.**
@@ -22,7 +23,7 @@ Minor GC checks the object in survivor spaces and move to other survivor spaces 
 
 Objects surviving mutiple minor GC are moved to old generation.
 
-Old Generation
+Old Generation -Tenured
 -
 Objects survived multiple minor GC are moved to old generation. When an old generation is full, the major GC takes place to remove the unused objects. This event can cause a minor pause in the working of application. Too many frequent major GC can trigger performance issue in the application. While designing an application, one should be considerate about it.
 
