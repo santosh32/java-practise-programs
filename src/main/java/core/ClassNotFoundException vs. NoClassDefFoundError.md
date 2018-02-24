@@ -10,8 +10,7 @@ ClassNotFoundException
 ClassNotFoundException is a runtime exception that is thrown when an application tries to load a class at runtime using the Class.forName() or loadClass() or findSystemClass() methods ,and the class with specified name are not found in the classpath. For example, you may have come across this exception when you try to connect to MySQL or Oracle databases and you have not updated the classpath with required JAR files. Most of the time, this exception occurs when you try to run an application without updating the classpath with required JAR files.
 
 For example, the below program will throw ClassNotFoundException if the mentioned class “oracle.jdbc.driver.OracleDriver” is not found in the classpath.
-
-{code}
+````java
 
 public class MainClass
 {
@@ -26,3 +25,4 @@ public class MainClass
         }
     }
 }
+````
