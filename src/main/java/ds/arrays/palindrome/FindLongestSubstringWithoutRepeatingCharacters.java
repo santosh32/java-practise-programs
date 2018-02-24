@@ -66,3 +66,12 @@ public class FindLongestSubstringWithoutRepeatingCharacters {
 		longestSubstring("thelongestsubstring");
 	}
 }
+/*
+Input String : javaconceptoftheday
+The longest substring : [o, f, t, h, e, d, a, y]
+The longest Substring Length : 8
+==========================
+Input String : thelongestsubstring
+The longest substring : [u, b, s, t, r, i, n, g]
+The longest Substring Length : 8
+ */
