@@ -19,15 +19,7 @@ public class FirstNonRepeatedCharacterInStringEx {
 	 * if there is no non-repeating character in inputString
 	 */
 	public static Character firstNonRepeatedCharacter(String inputString) {
-		Map<Character, Integer> map = new LinkedHashMap<Character, Integer>(); // LinkedHashMap
-																				// used
-																				// so
-																				// that
-																				// we
-																				// could
-																				// maintain
-																				// insertion
-																				// order.
+		Map<Character, Integer> map = new LinkedHashMap<Character, Integer>(); 
 		char ar[] = inputString.toCharArray();
 		char ch;
 

@@ -19,5 +19,4 @@ public class FindTwoMaximumNumbersInArrayEx {
 		System.out.println("Maximum1 : " + maximum1);
 		System.out.println("Maximum2 : " + Maximum2);
 	}
-
 }

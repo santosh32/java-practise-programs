@@ -3,10 +3,8 @@ package ds.arrays;
 public class OccurrenceOfNumberInCubeEx {
 
 	public static void main(String[] args) {
-
 		long num = 1551;
 		int occurrenceOf = 1; // calculate OccurrenceOf this digit in number.
-
 		System.out.println("Cube of entered number(" + num + ") is: " + num * num * num);
 		System.out.println("Occurrence of " + occurrenceOf + " in cube of " + num + " is: " + calculateOccurrenceOf(num, occurrenceOf));
 
@@ -27,13 +25,9 @@ public class OccurrenceOfNumberInCubeEx {
 		}
 		return count;
 	}
-
 }
 
 /*
  * OUTPUT
- * 
- * Cube of entered number(1551) is: 3731087151 Occurrence of 1 in cube of 1551
- * is: 3
- * 
+ * Cube of entered number(1551) is: 3731087151 Occurrence of 1 in cube of 1551 is: 3
  */

@@ -17,15 +17,7 @@ public class CharacterCountInStringUsingHashMapEx {
 	 * Method calculates count of all characters in inputString.
 	 */
 	public static void characterCount(String inputString) {
-		Map<Character, Integer> map = new LinkedHashMap<Character, Integer>(); // LinkedHashMap
-																				// used
-																				// so
-																				// that
-																				// we
-																				// could
-																				// maintain
-																				// insertion
-																				// order.
+		Map<Character, Integer> map = new LinkedHashMap<Character, Integer>(); 
 		char[] inputAr = inputString.toCharArray();
 
 		for (int i = 0; i < inputAr.length; i++) {
@@ -34,7 +26,6 @@ public class CharacterCountInStringUsingHashMapEx {
 				map.put(ch, map.get(ch) + 1);
 			else
 				map.put(ch, 1);
-
 		}
 		/*
 		 * Till this point of program, we have stored all unique characters in
@@ -46,9 +37,7 @@ public class CharacterCountInStringUsingHashMapEx {
 			char ch = charIterator.next();
 			System.out.print(ch + "=" + map.get(ch) + " ");
 		}
-
 	}
-
 }
 
 /*

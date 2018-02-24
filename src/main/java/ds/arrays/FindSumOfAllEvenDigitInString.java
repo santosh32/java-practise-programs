@@ -19,12 +19,9 @@ public class FindSumOfAllEvenDigitInString {
 		}
 		System.out.println(sum);
 	}
-
 }
 
 /*
  * OUTPUT
- * 
  * 6
- * 
  */
