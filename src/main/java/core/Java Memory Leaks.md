@@ -102,11 +102,17 @@ You also have:
 Other tools you should know include:
 --
 **NetBeans Profiler** – Can support Java SE, Java FX, EJB, mobile applications, and Web applications, and could be used to monitor memory, threads, and CPU resources.
-JProfiler – A thread, memory, and CPU profiling tool that can also be used to analyze memory leaks and other performance bottlenecks.
+
+**JProfiler** – A thread, memory, and CPU profiling tool that can also be used to analyze memory leaks and other performance bottlenecks.
+
 **GC Viewer** – An open-source tool that allows you to easily visualize information produced by JVM. You can use this to see performance metrics related to garbage collection, including accumulated pauses, longest pauses, and throughput. Aside from enabling you to run garbage collection, you can also use this tool to set up the preliminary heap size.
+
 **VisualVM** – Based on the NetBeans platform, VisualVM is an easily extensible tool using a variety of plugins. You get detailed data on your applications, and these data can be used to monitor both remote and local apps. You can get memory profiling and manually run the garbage collector using this tool.
+
 **Patty in action** – Another open source tool that you can use as a profiling tool that can give you target and drilled down profiling. You can use this tool to analyze heaps.
+
 **JRockit** – A proprietary solution from Oracle, JRockit is for Java SE applications that may be used to predict latency and allows you to visualize garbage collection and sort through memory-related issues.
+
 **GCeasy** – GCeasy is a tool that analyzes logs related to garbage collection. It is an easy way to detect memory leak problems as it goes through and analyze garbage collection logs. Another reason to use GCeasy is that it is available online; there is no need for you to install it on your machine to use it.
 
 Java Memory Leaks: Solutions
