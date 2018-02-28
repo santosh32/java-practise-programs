@@ -59,11 +59,13 @@ public class FindLongestSubstringWithoutRepeatingCharacters {
 	}
 
 	public static void main(String[] args) {
-		longestSubstring("javaconceptoftheday");
+//		longestSubstring("javaconceptoftheday");
+		longestSubstring("ABDEFGABEF");
+		
 
 		System.out.println("==========================");
 
-		longestSubstring("thelongestsubstring");
+//		longestSubstring("thelongestsubstring");
 	}
 }
 /*
