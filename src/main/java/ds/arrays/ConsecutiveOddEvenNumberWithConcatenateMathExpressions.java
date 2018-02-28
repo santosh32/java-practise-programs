@@ -7,10 +7,10 @@ public class ConsecutiveOddEvenNumberWithConcatenateMathExpressions {
 		System.out.println("Input is : " + inputString);
 
 		System.out.println(
-				"Output is : " + concatenateMathExpressions(inputString));
+				"Output is : " + concatenateWthMathExpressions(inputString));
 	}
 
-	public static String concatenateMathExpressions(String inputString) {
+	public static String concatenateWthMathExpressions(String inputString) {
 		StringBuffer sb = new StringBuffer();
 		char[] ch = inputString.toCharArray();
 

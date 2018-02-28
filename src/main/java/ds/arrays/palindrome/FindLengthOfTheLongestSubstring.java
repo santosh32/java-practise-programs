@@ -2,7 +2,7 @@ package ds.arrays.palindrome;
 
 //Java program to find the length of the longest substring
 //without repeating characters
-public class GFG {
+public class FindLengthOfTheLongestSubstring {
 
 	static final int NO_OF_CHARS = 256;
 
