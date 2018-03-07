@@ -1,3 +1,4 @@
+https://www.google.co.in/amp/s/www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java/amp
 Java Memory Model & Garbage collection
 -
 The below explanation mainly holds for JRE 5.0+ - 7.0. JMM(Java memory model) is divided into mainly 3 parts
