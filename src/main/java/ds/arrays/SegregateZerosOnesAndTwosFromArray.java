@@ -44,3 +44,8 @@ public class SegregateZerosOnesAndTwosFromArray {
 		System.out.println("=========================================");
 	}
 }
+
+/*
+Array Before segregate : [0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1]
+Array After segregate : [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2]
+ */
