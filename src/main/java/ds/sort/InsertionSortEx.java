@@ -8,7 +8,7 @@ public class InsertionSortEx {
 		System.out.print("Before : ");
 		print(a);
 
-		for (int outer = 1; outer < a.length; outer++) {
+		for (int outer = 0; outer < a.length-1; outer++) {
 			System.out.println("-----");
 			for (int inner = outer; inner > 0; inner--) {
 				if (a[inner] < a[inner - 1]) {

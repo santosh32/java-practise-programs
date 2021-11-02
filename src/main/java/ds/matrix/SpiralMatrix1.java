@@ -10,7 +10,7 @@ public class SpiralMatrix1 {
 		//
 		// int n = sc.nextInt();
 
-		int n = 4;
+		int n = 5;
 
 		int[][] spiral = new int[n][n];
 

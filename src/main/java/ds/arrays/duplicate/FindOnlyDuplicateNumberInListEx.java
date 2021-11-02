@@ -11,7 +11,7 @@ public class FindOnlyDuplicateNumberInListEx {
 		for (int i = 1; i <= highestNumberInList; i++) {
 			list.add(i);
 		}
-		list.add(5); // add duplicate number in list(please ensure you don't add
+		list.add(9); // add duplicate number in list(please ensure you don't add
 						// more than one duplicate number in list)
 		System.out.println("list is: " + list);
 		System.out.println("Only duplicate number in list is: " + findOnlyDuplicateNumberInList(list, highestNumberInList));

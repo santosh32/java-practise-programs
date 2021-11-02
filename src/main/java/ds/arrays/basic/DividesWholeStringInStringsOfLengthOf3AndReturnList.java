@@ -5,7 +5,7 @@ import java.util.*;
 public class DividesWholeStringInStringsOfLengthOf3AndReturnList {
 
 	List<String> methodDividesStringAndReturnList(int n) {
-		String s = "abcdefghi";
+		String s = "abcdefghij";
 		// String s = "abcdefgh"; //Test String
 		// String s = "abcdefghij"; //Test String
 		char ch[] = s.toCharArray();

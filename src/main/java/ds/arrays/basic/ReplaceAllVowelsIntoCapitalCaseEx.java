@@ -9,23 +9,15 @@ public class ReplaceAllVowelsIntoCapitalCaseEx {
 		for (int i = 0; i < c1.length; i++) {
 			switch (c1[i]) {
 			case 'a':
-				c1[i] = (char) (c1[i] - 32);
-				break;
 
-			case 'e':
-				c1[i] = (char) (c1[i] - 32);
-				break;
+				case 'e':
 
-			case 'i':
-				c1[i] = (char) (c1[i] - 32);
-				break;
+				case 'i':
 
-			case 'o':
-				c1[i] = (char) (c1[i] - 32);
-				break;
+				case 'o':
 
-			case 'u':
-				c1[i] = (char) (c1[i] - 32);
+				case 'u':
+					c1[i] = (char) (c1[i] - 32);
 				break;
 
 			}

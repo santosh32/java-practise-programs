@@ -15,6 +15,7 @@ public class FindSumOfAllEvenDigitInString {
 					sum += x;
 				}
 			} catch (Exception e) {
+				System.out.println(e);
 			}
 		}
 		System.out.println(sum);
