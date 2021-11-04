@@ -3,14 +3,15 @@ package ds.matrix;
 public class SpiralMatrix1 {
 
 	public static void main(String args[]) {
+		int n = 5;
 
-		System.out.println("Enter The Value For N :");
+		System.out.println("Enter The Value For N : "+ n);
 
 		// Scanner sc = new Scanner(System.in);
 		//
 		// int n = sc.nextInt();
 
-		int n = 5;
+
 
 		int[][] spiral = new int[n][n];
 

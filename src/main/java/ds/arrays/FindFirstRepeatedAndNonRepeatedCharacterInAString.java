@@ -4,64 +4,64 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class FindFirstRepeatedAndNonRepeatedCharacterInAString {
-	
-	static void firstRepeatedNonRepeatedChar(String inputString) {
-		// Creating a HashMap containing char as a key and occurrences as a
-		// value
 
-		HashMap<Character, Integer> charCountMap = new HashMap<Character, Integer>();
+    static void firstRepeatedNonRepeatedChar(String inputString) {
+        // Creating a HashMap containing char as a key and occurrences as a
+        // value
 
-		// Converting inputString to char array
+        HashMap<Character, Integer> charCountMap = new HashMap<Character, Integer>();
 
-		char[] strArray = inputString.toCharArray();
+        // Converting inputString to char array
 
-		// Checking each char of strArray
+        char[] strArray = inputString.toCharArray();
 
-		for (char c : strArray) {
-			if (charCountMap.containsKey(c)) {
-				// If char is present in charCountMap, incrementing it's count
-				// by 1
+        // Checking each char of strArray
 
-				charCountMap.put(c, charCountMap.get(c) + 1);
-			} else {
-				// If char is not present in charCountMap,
-				// adding this char in charCountMap with 1 as it's value
+        for (char c : strArray) {
+            if (charCountMap.containsKey(c)) {
+                // If char is present in charCountMap, incrementing it's count
+                // by 1
 
-				charCountMap.put(c, 1);
-			}
-		}
+                charCountMap.put(c, charCountMap.get(c) + 1);
+            } else {
+                // If char is not present in charCountMap,
+                // adding this char in charCountMap with 1 as it's value
 
-		// checking for first non-repeated character
+                charCountMap.put(c, 1);
+            }
+        }
 
-		for (char c : strArray) {
-			if (charCountMap.get(c) == 1) {
-				System.out.println("First Non-Repeated Character In '" + inputString + "' is '" + c + "'");
+        // checking for first non-repeated character
 
-				break;
-			}
-		}
+        for (char c : strArray) {
+            if (charCountMap.get(c) == 1) {
+                System.out.println("First Non-Repeated Character In '" + inputString + "' is '" + c + "'");
 
-		// checking for first repeated character
+                break;
+            }
+        }
 
-		for (char c : strArray) {
-			if (charCountMap.get(c) > 1) {
-				System.out.println("First Repeated Character In '" + inputString + "' is '" + c + "'");
+        // checking for first repeated character
 
-				break;
-			}
-		}
-	}
+        for (char c : strArray) {
+            if (charCountMap.get(c) > 1) {
+                System.out.println("First Repeated Character In '" + inputString + "' is '" + c + "'");
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+                break;
+            }
+        }
+    }
 
-		System.out.println("Enter the string :");
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-		String input = sc.next();
+        System.out.println("Enter the string :");
 
-		firstRepeatedNonRepeatedChar(input);
-		sc.close();
-	}
+        String input = sc.next();
+
+        firstRepeatedNonRepeatedChar(input);
+        sc.close();
+    }
 }
 /*
 Enter the string :

@@ -4,30 +4,30 @@ import java.util.ArrayList;
 
 public class RemoveDuplicatesFromArrayList {
 
-	public static void main(String[] args) {
-		ArrayList<Object> al = new ArrayList<Object>();
+    public static void main(String[] args) {
+        ArrayList<Object> arrayList = new ArrayList<Object>();
 
-		al.add("java");
-		al.add('a');
-		al.add('b');
-		al.add('a');
-		al.add("java");
-		al.add(10.3);
-		al.add('c');
-		al.add(14);
-		al.add("java");
-		al.add(12);
+        arrayList.add("java");
+        arrayList.add('a');
+        arrayList.add('b');
+        arrayList.add('a');
+        arrayList.add("java");
+        arrayList.add(10.3);
+        arrayList.add('c');
+        arrayList.add(14);
+        arrayList.add("java");
+        arrayList.add(12);
 
-		System.out.println("Before Remove Duplicate elements:" + al);
+        System.out.println("Before Remove Duplicate elements:" + arrayList);
 
-		for (int i = 0; i < al.size(); i++) {
-			for (int j = i + 1; j < al.size(); j++) {
-				if (al.get(i).equals(al.get(j))) {
-					al.remove(j); 
-					j--;
-				}
-			}
-		}
-		System.out.println("After Removing duplicate elements:" + al);
-	}
+        for (int i = 0; i < arrayList.size(); i++) {
+            for (int j = i + 1; j < arrayList.size(); j++) {
+                if (arrayList.get(i).equals(arrayList.get(j))) {
+                    arrayList.remove(j);
+                    j--;
+                }
+            }
+        }
+        System.out.println("After Removing duplicate elements:" + arrayList);
+    }
 }

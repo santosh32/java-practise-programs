@@ -34,3 +34,6 @@ public class CountConsecutiveElementInStrArray {
 		System.out.println(map);
 	}
 }
+/*
+{aaa=3, bb=2, cccc=4, dd=2, aa=2}
+*/

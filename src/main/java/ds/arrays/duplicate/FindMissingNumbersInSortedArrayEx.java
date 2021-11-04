@@ -1,6 +1,6 @@
 package ds.arrays.duplicate;
 
-public class FindMissingNumberInSortedArrayEx {
+public class FindMissingNumbersInSortedArrayEx {
 	static int ar[] = { 3, 5, 8, 44 }; // given array
 
 	public static void main(String[] args) {

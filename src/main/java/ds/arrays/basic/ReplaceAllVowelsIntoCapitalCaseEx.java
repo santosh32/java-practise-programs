@@ -10,7 +10,6 @@ public class ReplaceAllVowelsIntoCapitalCaseEx {
 			switch (c1[i]) {
 			case 'a':
 
-				case 'e':
 
 				case 'i':
 
@@ -27,12 +26,10 @@ public class ReplaceAllVowelsIntoCapitalCaseEx {
 		System.out.println(
 				"After replacing all vowels into capital case = " + str);
 
-	}
+    }
 }
 /*
  * OUTPUT
- * 
- * original string = java made so easy After replacing all vowels into capital
- * case = jAvA mAdE sO EAsy
- * 
+original string = 'java made so easy'
+After replacing all vowels into capital case = 'jAvA mAdE sO EAsy'
  */

@@ -17,10 +17,10 @@ public class RemoveDuplicatesFromUnSortedArrayEx {
 			for (int j = i + 1; j < n; j++) {
 				// If any two elements are found equal
 				if (a[i] == a[j]) {
-					int temp = j;// set duplicate element index
+					//int temp = j;// set duplicate element index
 					// delete the duplicate element by shifting the elements to
 					// left
-					for (int k = temp; k < n - 1; k++) {
+					for (int k = j; k < n - 1; k++) {
 						a[k] = a[k + 1];
 					}
 					j--;

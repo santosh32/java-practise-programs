@@ -31,7 +31,7 @@ public class DeleteRepeatedCharacterFromBothStringsEx {
 
 /*
  * output
- * 
+ *
  * s1 = abc , s2 = cde Modified s1 = ab, Modified s2 = de
- * 
+ *
  */

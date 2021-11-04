@@ -3,13 +3,13 @@ package ds.arrays.duplicate;
 public class RemoveAdjacentDuplicateCharactersInString {
 
     // Function to remove adjacent duplicates characters from a string
-    public static String removeDuplicates(String s) {
+    public static String removeDuplicates(String str) {
         // base case
-        if (s == null) {
+        if (str == null) {
             return null;
         }
 
-        char[] chars = s.toCharArray();
+        char[] chars = str.toCharArray();
         char previous = 0;
         int k = 0;
 

@@ -4,43 +4,43 @@ import java.util.Arrays;
 
 public class SegregateOddEvenNumberSorting {
 
-	static void sorting(int a[]) {
-		
-		System.out.println("Array Before sorting : " + Arrays.toString(a));
-		System.out.println("=========================================");
+    static void sorting(int a[]) {
 
-		int i = 0, j = a.length - 1;
+        System.out.println("Array Before sorting : " + Arrays.toString(a));
+        System.out.println("=========================================");
 
-		while (i < j) {
-			while (a[i] % 2 == 0)
-				i++;
-			while (a[j] % 2 != 0)
-				j--;
-			if (i < j) {
-				int temp = a[i];
-				a[i] = a[j];
-				a[j] = temp;
-				i++;
-				j--;
-			}
-			System.out.println(Arrays.toString(a));
-		}
+        int i = 0, j = a.length - 1;
 
-		System.out.println("Array After sorting : " + Arrays.toString(a));
+        while (i < j) {
+            while (i < j && a[i] % 2 == 0)
+                i++;
+            while (i < j && a[j] % 2 != 0)
+                j--;
+            if (i < j) {
+                int temp = a[i];
+                a[i] = a[j];
+                a[j] = temp;
+                i++;
+                j--;
+            }
+            System.out.println(Arrays.toString(a));
+        }
 
-		// TODO: two sub sets sorting goes
-		
-		System.out.println("i=" + i + " , j=" + j);
+        System.out.println("Array After sorting : " + Arrays.toString(a));
 
-		System.out.println("=========================================");
-	}
+        // TODO: two sub sets sorting goes
 
-	public static void main(String[] args) {
-		sorting(new int[] { 4, 5, 8, 9, 10 });
+        System.out.println("i=" + i + " , j=" + j);
 
-		sorting(new int[] { 12, 9, 21, 17, 33, 7 });
+        System.out.println("=========================================");
+    }
 
-	}
+    public static void main(String[] args) {
+        sorting(new int[]{1, 3, 3, 5, 1});
+
+        sorting(new int[]{12, 9, 21, 17, 33, 7});
+
+    }
 }
 
 /*
