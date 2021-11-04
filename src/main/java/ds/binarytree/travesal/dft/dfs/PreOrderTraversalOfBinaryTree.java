@@ -82,5 +82,10 @@ public class PreOrderTraversalOfBinaryTree {
  * Output
  * 
  * Pre order Traversal of Binary Tree in java : 1 2 4 5 3 6 7
+ *
+ * 1 2 4 5 3 6 7
+ * 4 5 2 6 7 3 1
+ * 4 5 2 6 7 3 1
+ *
  * 
  */

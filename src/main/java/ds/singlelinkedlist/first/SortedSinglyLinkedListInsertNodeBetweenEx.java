@@ -1,14 +1,8 @@
 package ds.singlelinkedlist.first;
 
-/**
- * Sorted Singly LinkedList class
- */
 class LinkedListBetween {
 	private Node first; // ref to first link on list
 
-	/**
-	 * LinkedList constructor
-	 */
 	public LinkedListBetween() {
 		first = null;
 	}
@@ -97,12 +91,11 @@ public class SortedSinglyLinkedListInsertNodeBetweenEx {
 
 /*
  * OUTPUT
- * 
- * Displaying LinkedList [first--->last]: Node with data=92 insereted at first.
- * Node with data=20 inserted at first Node, beacuse newNode is smallest of
- * existing Nodes. Node with data=19 inserted at first Node, beacuse newNode is
- * smallest of existing Nodes. Node with data=29 inserted successfully in middle
- * of LinkedList. Node with data=99 inserted successfully at last of LinkedList.
- * Displaying LinkedList [first--->last]: 19 20 29 92 99
- * 
+Displaying LinkedList (first--->last):
+Node with data=92 inserted at first.
+Node with data=20 inserted at first Node, beacuse newNode is smallest of existing Nodes.
+Node with data=19 inserted at first Node, beacuse newNode is smallest of existing Nodes.
+Node with data=29 inserted successfully in middle of LinkedList.
+Node with data=99 inserted successfully at last of LinkedList.
+Displaying LinkedList (first--->last): 19 20 29 92 99
  */

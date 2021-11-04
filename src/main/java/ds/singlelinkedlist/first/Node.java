@@ -11,4 +11,12 @@ public class Node {
 	public void displayNode() {
 		System.out.print(data + " ");
 	}
+
+	@Override
+	public String toString() {
+		return "Node{" +
+				"data=" + data +
+				", next=" + next +
+				'}';
+	}
 }

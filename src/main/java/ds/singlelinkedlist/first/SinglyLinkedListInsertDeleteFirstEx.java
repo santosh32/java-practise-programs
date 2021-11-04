@@ -26,11 +26,11 @@ class LinkedListFirst {
 		if (first == null) { // means LinkedList in empty, throw exception.
 			throw new LinkedListEmptyException("LinkedList doesn't contain any Nodes.");
 		}
-		Node tempNode = first; // save reference to first Node in tempNode- so
+		Node deleteNode = first; // save reference to first Node in tempNode- so
 								// that we could return saved reference.
 		first = first.next; // delete first Node (make first point to second
 							// node)
-		return tempNode; // return tempNode (i.e. deleted Node)
+		return deleteNode; // return tempNode (i.e. deleted Node)
 	}
 
 	/**

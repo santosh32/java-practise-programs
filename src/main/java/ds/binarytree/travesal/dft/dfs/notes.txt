@@ -1,0 +1,8 @@
+Tree Traversal/Binary Search Tree ->
+ -- Depth first traversal/Depth first search
+    -- Pre-Order Traversal => visit the root node first followed by left and right
+                            root node, left node, right node
+    -- In-Order Traversal => left node , root node, right node
+    -- Post-Order Traversal => left node , right node and root node
+-- Breadth first Traversal/Breadth first search
+    --

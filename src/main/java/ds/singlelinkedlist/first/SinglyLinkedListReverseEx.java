@@ -21,10 +21,8 @@ class LinkedList {
 
 		while (nextNode != null) {
 			nextNode = nextNode.next; // make nextNode point to next node.
-			currentNode.next = previousNode; // make current node's next point
-												// to previous node.
-			previousNode = currentNode; // make previousNode point to
-										// currentNode.
+			currentNode.next = previousNode; // make current node's next point to previous node.
+			previousNode = currentNode; // make previousNode point to  currentNode.
 			currentNode = nextNode; // make currentNode point to nextNode.
 		}
 		// by this stage of program all the nodes are pointing to previous
