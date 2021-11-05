@@ -40,9 +40,9 @@ public class RemoveDuplicatesFromUnSortedArrayEx {
 	}
 
 	public static void main(String[] args) {
-		unique_array(new int[] { 0, 3, -2, 4, 3, 2 });
+		unique_array(new int[] { 1, 3, 7, 8, 8, 9, 8, 9, 14, 16, 16, 17, 17});
 
-		unique_array(new int[] { 10, 22, 10, 20, 11, 22 });
+		//unique_array(new int[] { 10, 22, 10, 20, 11, 22 });
 
 	}
 }

@@ -4,7 +4,7 @@ public class RemoveDuplicatesFromCharcterArrayEx {
 
 	public static void main(String a[]) {
 
-		String str = "JavaJ2EE";
+		String str = "AAABBCDDD";
 		char[] ch = str.toCharArray();
 
 		System.out.println("Original Str: " + str);

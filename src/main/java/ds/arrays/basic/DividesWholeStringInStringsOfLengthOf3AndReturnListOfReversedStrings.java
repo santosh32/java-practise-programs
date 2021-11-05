@@ -16,7 +16,7 @@ public class DividesWholeStringInStringsOfLengthOf3AndReturnListOfReversedString
 		for (int i = 0; i < ch.length; i++) {
 			chSmall[ctr] = ch[i];
 			ctr++;
-			if (ctr == 3 || i + 1 == ch.length) {
+			if (ctr == 3 || ((i + 1) == ch.length)) {
 				ctr = 0;
 				reverse(chSmall);
 				list.add(new String(chSmall));
