@@ -2,9 +2,9 @@ package dp.creational.singleton;
 
 public enum EnumSingleton {
 
-	INSTANCE;
+    INSTANCE;
 
-	public static void doSomething() {
-		// do something
-	}
+    public static void doSomething() {
+        // do something
+    }
 }
