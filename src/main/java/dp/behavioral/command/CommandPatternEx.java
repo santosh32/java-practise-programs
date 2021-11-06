@@ -66,3 +66,9 @@ public class CommandPatternEx {
         inv.executeCommand(reCmd);
     }
 }
+/*
+***Command Pattern Demo***
+
+Executing -MyUndoCommand
+Executing -MyRedoCommand
+ */

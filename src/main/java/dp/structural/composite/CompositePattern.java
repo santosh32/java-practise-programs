@@ -9,38 +9,39 @@ import java.util.List;
  * This is usually done by the class that "owns" the group of objects and provides a set of methods to treat them equally
  * as if they were a single object.
  */
+class Employee {
+    private String name;
+    private String position;
+    private int wage;
+    private List<Employee> coworkers = new ArrayList<Employee>();
+
+    public Employee(String name, String position, int wage) {
+        this.name = name;
+        this.position = position;
+        this.wage = wage;
+        coworkers = new ArrayList<Employee>();
+    }
+
+    public void addCoworker(Employee employee) {
+        coworkers.add(employee);
+    }
+
+    public void removeCoworker(Employee employee) {
+        coworkers.remove(employee);
+    }
+
+    public List<Employee> getCoworkers() {
+        return coworkers;
+    }
+
+    public String toString() {
+        return "Employee : | Name: " + name + ", Position: " + position + ", Wage: "
+                + wage + " |";
+    }
+}
+
 public class CompositePattern {
 
-    static class Employee {
-        private String name;
-        private String position;
-        private int wage;
-        private List<Employee> coworkers = new ArrayList<Employee>();
-
-        public Employee(String name, String position, int wage) {
-            this.name = name;
-            this.position = position;
-            this.wage = wage;
-            coworkers = new ArrayList<Employee>();
-        }
-
-        public void addCoworker(Employee employee) {
-            coworkers.add(employee);
-        }
-
-        public void removeCoworker(Employee employee) {
-            coworkers.remove(employee);
-        }
-
-        public List<Employee> getCoworkers() {
-            return coworkers;
-        }
-
-        public String toString() {
-            return "Employee : | Name: " + name + ", Position: " + position + ", Wage: "
-                    + wage + " |";
-        }
-    }
 
     public static void main(String[] args) {
         Employee employee1 = new Employee("David", "Programmer", 1500);
