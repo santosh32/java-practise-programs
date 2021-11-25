@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class RemoveDuplicatesFromArray {
+public class FindDuplicatesFromArray {
 
     public static void main(String[] args) {
 
@@ -23,3 +23,9 @@ public class RemoveDuplicatesFromArray {
 
     }
 }
+/*
+    3
+    4
+    9
+
+ */
