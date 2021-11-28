@@ -5,16 +5,19 @@ package dp.behavioral.iterator;
  * It's used to access the members of collections all the while hiding the underlying implementation.
  */
 interface Iterator {
+
     boolean hasNext();
 
     Object next();
 }
 
 interface Sector {
+
     Iterator getIterator();
 }
 
 class EmployeeRepository implements Sector {
+
     public String[] employees = {"David", "Scott", "Rhett", "Andrew", "Jessica"};
 
     @Override

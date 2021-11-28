@@ -11,7 +11,7 @@ public class CountConsecutiveElementInStrArray {
 
 		char[] ch = inStr.toCharArray();
 
-		Map<String, Integer> map = new LinkedHashMap<String, Integer>();
+		Map<String, Integer> map = new LinkedHashMap<>();
 
 		for (int i = 0; i < ch.length - 1; i++) {
 			int count = 1;

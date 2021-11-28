@@ -9,6 +9,7 @@ public class ReplaceAllVowelsIntoCapitalCaseEx {
         for (int i = 0; i < c1.length; i++) {
             switch (c1[i]) {
                 case 'a':
+                case 'e':
                 case 'i':
                 case 'o':
                 case 'u':

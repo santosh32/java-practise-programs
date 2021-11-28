@@ -1,7 +1,9 @@
 package dp.behavioral.command;
 
 interface ICommand {
+
     void execute();
+
 }
 
 class UndoCommand implements ICommand {
@@ -34,6 +36,7 @@ class RedoCommand implements ICommand {
 
 // Receiver Class
 class Receiver {
+
     public void performUndo() {
         System.out.println("Executing -MyUndoCommand");
     }
@@ -45,6 +48,7 @@ class Receiver {
 
 // Invoker Class
 class Invoke {
+
     ICommand cmd;
 
     public void executeCommand(ICommand cmd) {

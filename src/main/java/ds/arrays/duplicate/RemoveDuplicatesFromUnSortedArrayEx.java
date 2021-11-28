@@ -12,7 +12,7 @@ public class RemoveDuplicatesFromUnSortedArrayEx {
 		int n = a.length;
 
 		// Comparing each element with all other elements
-
+		// 10, 22, 10, 20, 11, 22
 		for (int i = 0; i < n; i++) {
 			for (int j = i + 1; j < n; j++) {
 				// If any two elements are found equal
@@ -40,9 +40,9 @@ public class RemoveDuplicatesFromUnSortedArrayEx {
 	}
 
 	public static void main(String[] args) {
-		unique_array(new int[] { 1, 3, 7, 8, 8, 9, 8, 9, 14, 16, 16, 17, 17});
+		//unique_array(new int[] { 1, 3, 7, 8, 8, 9, 8, 9, 14, 16, 16, 17, 17});
 
-		//unique_array(new int[] { 10, 22, 10, 20, 11, 22 });
+		unique_array(new int[] { 10, 22, 10, 20, 11, 22 });
 
 	}
 }

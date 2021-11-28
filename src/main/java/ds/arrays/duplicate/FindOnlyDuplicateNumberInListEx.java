@@ -6,7 +6,7 @@ import java.util.List;
 public class FindOnlyDuplicateNumberInListEx {
 
     public static void main(String... a) {
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<>();
         int highestNumberInList = 10; // you may change it in future.
         for (int i = 1; i <= highestNumberInList; i++) {
             list.add(i);
@@ -27,7 +27,7 @@ public class FindOnlyDuplicateNumberInListEx {
             sumOfNumbersList = sumOfNumbersList + number;
         }
 
-        int onlyDuplicateNumberInList = sumOfNumbersList - ((highestNumberInList) * (highestNumberInList + 1) / 2);
+        int onlyDuplicateNumberInList = sumOfNumbersList - (((highestNumberInList) * (highestNumberInList + 1)) / 2);
         return onlyDuplicateNumberInList;
     }
 

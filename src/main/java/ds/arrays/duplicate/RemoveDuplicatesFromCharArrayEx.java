@@ -1,6 +1,6 @@
 package ds.arrays.duplicate;
 
-public class RemoveDuplicatesFromCharcterArrayEx {
+public class RemoveDuplicatesFromCharArrayEx {
 
 	public static void main(String a[]) {
 

@@ -12,7 +12,7 @@ class FindOnlyMissingNumberInArrayEx {
         int m = n + 1;
 
         // get a sum of integers between 1 and `n+1`
-        int total = m * (m + 1) / 2;
+        int total = (m * (m + 1)) / 2;
 
         // get an actual sum of integers in the array
         int sum = Arrays.stream(arr).sum();
