@@ -17,7 +17,7 @@ public class ReverseStringRecursionEx {
         if (str.length() == 1) {
             System.out.print(str);
         } else {
-            reverseRecursively(str.substring(1, str.length()));
+            reverseRecursively(str.substring(1));
             System.out.print(str.substring(0, 1));
         }
     }

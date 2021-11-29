@@ -6,7 +6,7 @@ public class FibonacciRecursionEx {
 		int n = 10; // generate series upto n.
 		System.out.print("FibonacciSeries : 0 1 ");
 		for (int i = 2; i <= n; i++) {
-			System.out.print(fibonacciRecursion(i) + " ");
+			System.out.print(fibonacci(i) + " ");
 		}
 
 	}
@@ -14,11 +14,11 @@ public class FibonacciRecursionEx {
 	/*
 	 * return next number of FibonacciSeries using recursion.
 	 */
-	public static int fibonacciRecursion(int n) {
+	public static int fibonacci(int n) {
 		if (n == 1 || n == 2) {
 			return 1;
 		}
-		return fibonacciRecursion(n - 1) + fibonacciRecursion(n - 2); // using
+		return fibonacci(n - 1) + fibonacci(n - 2); // using
 																		// tail
 																		// recursion
 	}
