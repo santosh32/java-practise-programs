@@ -15,3 +15,6 @@ public class FindSumOfNumbers {
         System.out.println("Sum of all numbers : " + stats.getSum());
     }
 }
+/*
+Sum of all numbers : 226
+ */

@@ -33,7 +33,7 @@ public class DynamicQueueEx {
                     .println("Underflow ! Unable to remove element from Queue");
         } else {
             front++;
-            if (front > queue.length - 1) {
+            if (front >= queue.length) {
                 System.out.println("removed: " + queue[front - 1]);
                 front = 0;
             } else {
@@ -104,3 +104,21 @@ public class DynamicQueueEx {
         queue.dequeue();
     }
 }
+/*
+Adding: 4
+removed: 4
+Adding: 56
+Adding: 2
+Queue is full, increase capacity...
+New array capacity: 4
+Adding: 67
+removed: 56
+Adding: 24
+Adding: 98
+removed: 2
+removed: 67
+removed: 24
+Adding: 435
+removed: 98
+removed: 435
+ */
